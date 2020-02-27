@@ -1,0 +1,7 @@
+
+
+LIBRARY      "MapLma"
+
+EXPORTS
+	acrxEntryPoint		PRIVATE
+	acrxGetApiVersion	PRIVATE

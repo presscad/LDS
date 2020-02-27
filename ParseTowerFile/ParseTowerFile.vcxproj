@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DebugVS80|Win32">
+      <Configuration>DebugVS80</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="LDSDebugV9|Win32">
+      <Configuration>LDSDebugV9</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="TDARelease|Win32">
+      <Configuration>TDARelease</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8EE9F81B-7C7C-4C1F-B627-702758347E39}</ProjectGuid>
+    <Keyword>MFCDLLProj</Keyword>
+    <SccProjectName>"$/", AAAAAAAA</SccProjectName>
+    <SccLocalPath>..</SccLocalPath>
+    <SccProvider>MSSCCI:Microsoft Visual SourceSafe</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugVS80|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugVS80|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DebugVS80|Win32'">..\..\TAP\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='DebugVS80|Win32'">Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DebugVS80|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='DebugVS80|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='DebugVS80|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='DebugVS80|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>E:\Structure\Graphics;E:\Structure\ToolCode;E:\Structure\TowerCad;E:\Structure\LDS\LdsModel;E:\Structure\LMADLG;E:\Structure\lds\WireLayoutEvolver;E:\Structure\PartLib;E:\Structure\LDS;E:\Structure\XhLdsLm;E:\Structure\XhLicAgent;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_WINDLL;_AFXDLL;__TMA_FILE_;PARSE_TOWERFILE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>f_ent.lib;f_ent_list.lib;f_alg_fun.lib;LmaDlg.lib;PartLib.lib;Codes.lib;WireLayoutEvolver.lib;LicProxy.lib;XhLdsLm.lib;XhLicAgent.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Debug\ParseTowerFile.dll</OutputFile>
+      <AdditionalLibraryDirectories>E:\Structure\Graphics;E:\Structure\LMADLG\Debug;E:\Structure\PartLib\Debug;E:\Structure\LDS\WireLayoutEvolver\Debug;E:\Structure\LDS\Codes\Debug;E:\Structure\XhLdsLm\Release;E:\Structure\XhLicAgent\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>.\ParseTowerFile.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>.\Debug\ParseTowerFile.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugVS80|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\;..\LdsModel;..\..\Graphics;..\..\ToolCode;..\..\TowerCad;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_WINDLL;_AFXDLL;__TMA_FILE_;__DRAWING_CONTEXT_;PARSE_TOWERFILE_EXPORTS;_NET_DOG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>f_ent.lib;f_ent_list.lib;f_alg_fun.lib;LmaDlg.lib;PartLib.lib;f_lic.lib;Codes.lib;WireLayoutEvolver.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)ParseTowerFile.dll</OutputFile>
+      <AdditionalLibraryDirectories>..\..\Graphics;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>.\ParseTowerFile.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>$(OutDir)ParseTowerFile.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)ParseTowerFile.dll</OutputFile>
+      <ModuleDefinitionFile>.\ParseTowerFile.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>$(OutDir)ParseTowerFile.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\LDS\BOM\BOM.cpp" />
+    <ClCompile Include="..\LDS\Console.cpp" />
+    <ClCompile Include="..\LDS\CryptBuffer.cpp" />
+    <ClCompile Include="..\LDS\GlobalFunc.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\ArcPart.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\AssembleCS.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\AttachWindLoad.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\Block.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\Bolt.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\CirBufferStack.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\CommonJg.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\ConeTube.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\ConeTubeParts.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\ConnectPointInfo.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\DefinedView.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\DesignLjPartPara.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\Expression.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\HashObjIdList.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\JointTubePartGroup.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\LdsModel.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\lds_co_part.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\lds_list.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\lds_part.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\LineSlot.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\LineTube.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\lslist.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\MutiThreadTask.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\Node.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\ParamPlate.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\PartGroup.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\Plate.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\RetrieveConnectDesignInfo.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\SlotArm.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\SpherePartGroup.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\StdPartModel.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\Tower.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\WindLoad.cpp" />
+    <ClCompile Include="..\LDS\LdsModel\WireLoadModelBuffer.cpp" />
+    <ClCompile Include="..\LDS\LibraryQuery.cpp" />
+    <ClCompile Include="..\LDS\TowerType.cpp" />
+    <ClCompile Include="..\ToolCode\Buffer.cpp" />
+    <ClCompile Include="..\ToolCode\BufferStack.cpp" />
+    <ClCompile Include="..\ToolCode\ComplexId.cpp" />
+    <ClCompile Include="..\ToolCode\CreateFace.cpp" />
+    <ClCompile Include="..\ToolCode\HoleMaker.cpp" />
+    <ClCompile Include="..\ToolCode\LogFile.cpp" />
+    <ClCompile Include="..\ToolCode\SolidBody.cpp" />
+    <ClCompile Include="..\ToolCode\SolidBodyBuffer.cpp" />
+    <ClCompile Include="..\ToolCode\SortFunc.cpp" />
+    <ClCompile Include="..\ToolCode\XhCharString.cpp" />
+    <ClCompile Include="..\TowerCad\ComparePartNoString.cpp" />
+    <ClCompile Include="..\TowerCad\CopyPasteOper.cpp" />
+    <ClCompile Include="..\TowerCad\ParseAdaptNo.cpp" />
+    <ClCompile Include="..\TowerCad\SegI.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="ParseTowerFile.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugVS80|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ParseTowerFile.def" />
+    <None Include="res\ParseTowerFile.rc2" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\LDS\BOM\BOM.h" />
+    <ClInclude Include="..\LDS\Console.h" />
+    <ClInclude Include="..\LDS\CryptBuffer.h" />
+    <ClInclude Include="..\LDS\GlobalFunc.h" />
+    <ClInclude Include="..\LDS\LdsModel\ArrayPtrList.h" />
+    <ClInclude Include="..\LDS\LdsModel\Block.h" />
+    <ClInclude Include="..\LDS\LdsModel\CirBufferStack.h" />
+    <ClInclude Include="..\LDS\LdsModel\ConeTubeParts.h" />
+    <ClInclude Include="..\LDS\LdsModel\DefinedView.h" />
+    <ClInclude Include="..\LDS\LdsModel\Expression.h" />
+    <ClInclude Include="..\LDS\LdsModel\HashObjIdList.h" />
+    <ClInclude Include="..\LDS\LdsModel\IModel.h" />
+    <ClInclude Include="..\LDS\LdsModel\LdsModel.h" />
+    <ClInclude Include="..\LDS\LdsModel\ldsptr_list.h" />
+    <ClInclude Include="..\LDS\LdsModel\lds_co_part.h" />
+    <ClInclude Include="..\LDS\LdsModel\lds_list.h" />
+    <ClInclude Include="..\LDS\LdsModel\lds_part.h" />
+    <ClInclude Include="..\LDS\LdsModel\lslist.h" />
+    <ClInclude Include="..\LDS\LdsModel\macro.h" />
+    <ClInclude Include="..\LDS\LdsModel\MutiThreadTask.h" />
+    <ClInclude Include="..\LDS\LdsModel\SlotArm.h" />
+    <ClInclude Include="..\LDS\LdsModel\SmartPtr.h" />
+    <ClInclude Include="..\LDS\LdsModel\SpherePartGroup.h" />
+    <ClInclude Include="..\LDS\LdsModel\Tower.h" />
+    <ClInclude Include="..\LDS\LdsModel\WindLoad.h" />
+    <ClInclude Include="..\LDS\LdsModel\WireLoadModelBuffer.h" />
+    <ClInclude Include="..\LDS\LibraryQuery.h" />
+    <ClInclude Include="..\LDS\TowerType.h" />
+    <ClInclude Include="..\ToolCode\ArrayList.h" />
+    <ClInclude Include="..\ToolCode\ArrayPtrList.h" />
+    <ClInclude Include="..\ToolCode\Buffer.h" />
+    <ClInclude Include="..\ToolCode\BufferStack.h" />
+    <ClInclude Include="..\ToolCode\ComplexId.h" />
+    <ClInclude Include="..\ToolCode\CreateFace.h" />
+    <ClInclude Include="..\ToolCode\HashSetBuffer.h" />
+    <ClInclude Include="..\ToolCode\HashTable.h" />
+    <ClInclude Include="..\ToolCode\HoleMaker.h" />
+    <ClInclude Include="..\ToolCode\LogFile.h" />
+    <ClInclude Include="..\ToolCode\MemberProperty.h" />
+    <ClInclude Include="..\ToolCode\objptr_list.h" />
+    <ClInclude Include="..\ToolCode\SolidBody.h" />
+    <ClInclude Include="..\ToolCode\SolidBodyBuffer.h" />
+    <ClInclude Include="..\ToolCode\SortFunc.h" />
+    <ClInclude Include="..\ToolCode\XhCharString.h" />
+    <ClInclude Include="..\TowerCad\ComparePartNoString.h" />
+    <ClInclude Include="..\TowerCad\CopyPasteOper.h" />
+    <ClInclude Include="..\TowerCad\ParseAdaptNo.h" />
+    <ClInclude Include="..\TowerCad\SegI.h" />
+    <ClInclude Include="ParseTowerFile.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="..\Log\LogVersionMsgDef.h" />
+    <ClInclude Include="..\Log\XhLog.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ParseTowerFile.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

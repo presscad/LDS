@@ -1,0 +1,7 @@
+
+
+LIBRARY      "MapLds.zrx"
+
+EXPORTS
+	zcrxEntryPoint		PRIVATE
+	zcrxGetApiVersion	PRIVATE

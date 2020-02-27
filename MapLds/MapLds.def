@@ -1,0 +1,7 @@
+
+
+LIBRARY      "MapLDS"
+
+EXPORTS
+	acrxEntryPoint		PRIVATE
+	acrxGetApiVersion	PRIVATE

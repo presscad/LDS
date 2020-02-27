@@ -1,0 +1,7 @@
+
+
+LIBRARY      "MapTma.zrx"
+
+EXPORTS
+	zcrxEntryPoint		PRIVATE
+	zcrxGetApiVersion	PRIVATE

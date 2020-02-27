@@ -1,0 +1,1426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{95a40c15-a692-4b7e-aa5e-f62cc9b39594}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{88b93204-8b98-49d6-95bf-d6177f8827ab}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{9f180dbd-8ab2-432e-a123-0ca6b2563ae0}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="ToolCode">
+      <UniqueIdentifier>{8f1254d9-5fce-41d0-a2b9-42da806e22e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TowerCad">
+      <UniqueIdentifier>{978785bb-0adb-465d-b10b-f4d75fbb9ed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StdPartSolid">
+      <UniqueIdentifier>{28ada88e-d8fe-430a-8a39-09d066f8e0f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IntelliCore">
+      <UniqueIdentifier>{33b0db5e-917d-4043-8faf-17323e8a0263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LdsModel">
+      <UniqueIdentifier>{67846831-5a6a-4398-9cca-bb10030dd112}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddNewLayerDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddViewDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AdjustPartDrawingSerialNoDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AdsTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrangeAndDrawPlateSetDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BackMirStyleDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BomCfgDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakLineDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CADCallBackDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CalTwoTubeAngleDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassicJgPart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DecarlToPolarDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DefTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DimJgZhun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DimLsInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DimPad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DimPartSpec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DimPlankLs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DimSimPoly.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DimSimPolyCfgDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DimSize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DimSpaceSizeDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DragEntSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingVectorDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawMapScript.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawMapScriptDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawMapTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawPenPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawSettingSheet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawTaMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawUcsDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawUnit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityDataBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FilePropertyDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FootViewSelDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FormatTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HuoQuJgDrawing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImportScriptOptionDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputAnValDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputDrawingUcsDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputPartNoDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputWorkNormDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertMapFrmDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JgDrawing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadArrowLocateDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadGraphDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapLds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapSetPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapSizeDimDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MatStatRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MxbDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NewDrawingViewDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NewMapFrameDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PaperPatternDrawing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PartDrawingArraySpaceDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PartGroupDrawing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PartSetCreatorDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PartStatRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlankDrawing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlankPartParaExportDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcBarDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessCard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RxTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SegMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SegMatSum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SegMatTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelCurFaceDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelCurFaceFlagDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectDrawingDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectSimpleSpecDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelMapSegDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelPartGroupDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SetActiveModuleDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SetMapScaleDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SetPartMapFilePathDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SetupAidedPlateDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="specialprocessstatcarddlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecialSettingDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatStdPartGroupDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdPartSetDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SumMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SumTaMatTblCfgDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SysPara.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemSettingDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TableGridDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TowerBom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TsaFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TubeSpreadCurveExportDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XhListBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DimPlateBolts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TubeDrawing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddAngleByRemoveNailDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RecogPartBOM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BPSModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BPSMenuFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OptimalSortDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveXeroPCD.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalFeatureDef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SysDrawingGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputMKRectDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TidToDwgDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PartGroupRectLayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RectLayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PolyJgBendDrawDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CutAngleBriefMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchBlankPosition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LdsDrwLocale.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw3dFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportSetDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\TowerCad\CopyPasteOper.cpp">
+      <Filter>TowerCad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\TowerCad\DbEntContext.cpp">
+      <Filter>TowerCad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\TowerCad\DrawDim.cpp">
+      <Filter>TowerCad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\TowerCad\DrawingToolKits.cpp">
+      <Filter>TowerCad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\TowerCad\DxfFile.cpp">
+      <Filter>TowerCad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\TowerCad\LicFuncDef.cpp">
+      <Filter>TowerCad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\TowerCad\ParseAdaptNo.cpp">
+      <Filter>TowerCad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\TowerCad\PlateDrawer.cpp">
+      <Filter>TowerCad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\TowerCad\ProcessPart.cpp">
+      <Filter>TowerCad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\TowerCad\ComparePartNoString.cpp">
+      <Filter>TowerCad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\TowerCad\SegI.cpp">
+      <Filter>TowerCad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\TowerCad\WirePlaceCode.cpp">
+      <Filter>TowerCad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\TowerCad\XerocadDrawing.cpp">
+      <Filter>TowerCad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\Buffer.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\BufferStack.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\ClientId.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\ColorSelectComboBox.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\Communication.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\ComplexId.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\CreateFace.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\DistFillet.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\Expression.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\folder_dialog.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\HiberarchyId.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\Interpolator.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\list.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\LogFile.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\TimerCount.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\Variant.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\XhCharString.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\XhListCtrl.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\XhLocale.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\XhMath.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\PropertyList.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\SocketObject.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\SolidBody.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\SolidBodyBuffer.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\SortFunc.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\SortHeaderCtrl.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\SquareTree.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\SuperEdit.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\supergridctrl.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\TaperPolygon.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\TblDef.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\Console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\database.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\CryptBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\GlobalFunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\Markup.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LoadTsaFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\Query.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LibraryQuery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\excel9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\ListViewComparer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\NcPlank.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\XhCore\XeroCad\Localize\LocalDrawing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\TempFile.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\UnifyModelLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\StdPartSolid\StdMetaSolid.cpp">
+      <Filter>StdPartSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\IntelliAgent\IntelliCore\PreviewFactory.cpp">
+      <Filter>IntelliCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\IntelliAgent\IntelliCore\PreviewObject.cpp">
+      <Filter>IntelliCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\IntelliAgent\IntelliCore\MonoImage.cpp">
+      <Filter>IntelliCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\StdPartSolid\Fitting.cpp">
+      <Filter>StdPartSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\StdPartSolid\FittingLibrary.cpp">
+      <Filter>StdPartSolid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ToolKits\ToolCode\MsgBox.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\AnchorBolt.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\ArcPart.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\AssembleCS.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\AttachWindLoad.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\BiteCut.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\Block.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\Bolt.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\BriefWeldPart.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\btc.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\CirBufferStack.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\CommonJg.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\ConnectPointInfo.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\DbObjProp.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\DefinedView.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\DesignLjPartPara.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\ElectricTower.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\FoundationParam.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\FuCaiCheck.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\HoleMaker.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\JointTubePartGroup.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\lds_co_part.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\lds_list.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\lds_part.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\LdsModel.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\LineHShape.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\LineSlot.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\LineTube.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\lslist.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\MutiThreadTask.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\Node.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\ParamPlate.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\PartGroup.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\Plate.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\SlotArm.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\SpherePartGroup.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\StdPartModel.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\SteelFitting.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\Tower.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\UniWirePointModel.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\VertexsLifeObject.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\WindLoad.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\XmlModel.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\LdsLocale.cpp">
+      <Filter>LdsModel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddViewDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdjustPartDrawingSerialNoDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdsTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrangeAndDrawPlateSetDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BackMirStyleDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakLineDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CADCallBackDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CalTwoTubeAngleDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassicJgPart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DecarlToPolarDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DefCard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DimJgZhun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DimPlankLs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DimSimPolyCfgDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DimSpaceSizeDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DocData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DragEntSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingVectorDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawMapScriptDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawSettingSheet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawTaMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawUnit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FilePropertyDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FootViewSelDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FormatTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImportScriptOptionDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputAnValDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDrawingUcsDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputPartNoDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputWorkNormDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertMapFrmDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JgDrawing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadArrowLocateDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadGraphDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapSetPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapSizeDimDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MatStatRecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuFunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MxbDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PaperPatternDrawing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PartDrawingArraySpaceDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PartGroupDrawing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PartSetCreatorDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PartStatRecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlankDrawing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlankPartParaExportDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcBarDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ptr_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rxdebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RxTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SegMatSum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelCurFaceDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelCurFaceFlagDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectDrawingDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelMapSegDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelPartGroupDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SetActiveItemDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SetMapScaleDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SetPartMapFilePathDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SetupAidedPlateDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="specialprocessstatcarddlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialSettingDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatStdPartGroupDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdArx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdPartSetDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SumTaMatTblCfgDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SysPara.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemSettingDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TableGridDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TubeSpreadCurveExportDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ObjectARX 2000\inc\dbboiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XeroCad\Localize\LocalDrawing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DimPlateBolts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TubeDrawing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddAngleByRemoveNailDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BPSModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OptimalSortDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SysDrawingGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputMKRectDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RecogPartBom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalFeatureDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityDataBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TidToDwgDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PartGroupRectLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RectLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PolyJgBendDrawDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CutAngleBriefMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchBlankPosition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LdsDrwLocale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddNewLayerDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BomCfgDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawUcsDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewDrawingViewDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewMapFrameDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectSimpleSpecDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerBom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XhListBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw3dFunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExportSetDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\TowerCad\ComparePartNoString.h">
+      <Filter>TowerCad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\TowerCad\CopyPasteOper.h">
+      <Filter>TowerCad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\TowerCad\DbEntContext.h">
+      <Filter>TowerCad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\TowerCad\DrawDim.h">
+      <Filter>TowerCad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\TowerCad\DrawingToolKits.h">
+      <Filter>TowerCad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\TowerCad\DXFDef.h">
+      <Filter>TowerCad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\TowerCad\DxfFile.h">
+      <Filter>TowerCad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\TowerCad\LicFuncDef.h">
+      <Filter>TowerCad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\TowerCad\ParseAdaptNo.h">
+      <Filter>TowerCad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\TowerCad\PlateDrawer.h">
+      <Filter>TowerCad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\TowerCad\ProcessPart.h">
+      <Filter>TowerCad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\TowerCad\SegI.h">
+      <Filter>TowerCad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\TowerCad\WirePlaceCode.h">
+      <Filter>TowerCad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\TowerCad\XerocadDrawing.h">
+      <Filter>TowerCad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\ArrayList.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\ArrayPtrList.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\Buffer.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\BufferStack.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\ClientId.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\ColorSelectComboBox.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\Communication.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\ComplexId.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\CreateFace.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\DistFillet.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\Expression.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\folder_dialog.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\HashTable.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\HiberarchyId.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\Interpolator.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\list.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\LogFile.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\TimerCount.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\Variant.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\XhCharString.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\XhListCtrl.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\XhLocale.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\XhMath.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\MemberProperty.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\objptr_list.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\PropertyList.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\PropertyListOper.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\PropListItem.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\SocketObject.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\SolidBody.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\SolidBodyBuffer.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\SortFunc.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\SortHeaderCtrl.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\SquareTree.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\SuperEdit.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\supergridctrl.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\TaperPolygon.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\TblDef.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\GlobalFunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\Console.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\database.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\Markup.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\Query.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LibraryQuery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\ListViewComparer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\MsgDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\NcPlank.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XhCore\XeroCad\Localize\LocalDrawing.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\TempFile.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\UnifyModelLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\StdPartSolid\StdMetaSolid.h">
+      <Filter>StdPartSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\IntelliAgent\IntelliCore\IPreview.h">
+      <Filter>IntelliCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\IntelliAgent\IntelliCore\PreviewObject.h">
+      <Filter>IntelliCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\IntelliAgent\IntelliCore\MonoImage.h">
+      <Filter>IntelliCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\StdPartSolid\Fitting.h">
+      <Filter>StdPartSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\StdPartSolid\FittingLibrary.h">
+      <Filter>StdPartSolid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ToolKits\ToolCode\MsgBox.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\AnchorBolt.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\BiteCut.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\Block.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\BriefWeldPart.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\btc.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\CirBufferStack.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\DbObjPropId.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\DefinedView.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\ElectricTower.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\FoundationParam.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\FuCaiCheck.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\HoleMaker.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\lds_co_part.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\lds_list.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\lds_part.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\lslist.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\macro.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\MutiThreadTask.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\PartGroup.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\SlotArm.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\SpherePartGroup.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\Tower.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\UniWirePointModel.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\VertexsLifeObject.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\WindLoad.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\XmlModel.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\LdsLocale.h">
+      <Filter>LdsModel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MapTma.def">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="res\cursor1.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cursor2.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\il_file.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\MapTma.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\script.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\sum_mat_cfg.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource.hm">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="res\body_quad.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PENCIL.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cur00003.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CROSS.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\draw_cro.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\draw_arr.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\arrow_dr.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\arrow_no.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cur00002.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\arrow_zo.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\arrow1.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\MOVE4WAY.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cur00001.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\NORMAL01.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\arrow_li.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cursor_l.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\arrow2.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\DRAGMOVE.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\DRAGLINK.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\DRAGCOPY.CUR">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\arrow_po.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\arrow_ci.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\KEY.ICO">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico00001.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ZWMapLds.def">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MapLds.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+// PartStatRecord.cpp: implementation of the CPartStatRecord class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "PartStatRecord.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CPartStatRecord::CPartStatRecord()
+{
+	memset(this,0,sizeof(CPartStatRecord));
+}

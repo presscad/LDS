@@ -1,0 +1,18 @@
+// Microsoft Visual C++ generated Help ID include file.
+// Used by MapLds.rc
+//
+#define HIDC_BN_CPY_UCS                 0x80ff0441    // IDD_DRAW_UCS_DLG
+#define HIDC_BN_PASTE_UCS               0x80ff0442    // IDD_DRAW_UCS_DLG
+#define HIDC_E_AXIS_X_X                 0x80de0497    // IDD_DRAWING_VECTOR_DLG
+#define HIDC_E_AXIS_X_Y                 0x80de0498    // IDD_DRAWING_VECTOR_DLG
+#define HIDC_E_AXIS_X_Z                 0x80de0499    // IDD_DRAWING_VECTOR_DLG
+#define HIDC_E_AXIS_Y_X                 0x80ff049b    // IDD_DRAW_UCS_DLG
+#define HIDC_E_AXIS_Y_Y                 0x80ff049c    // IDD_DRAW_UCS_DLG
+#define HIDC_E_AXIS_Y_Z                 0x80ff049d    // IDD_DRAW_UCS_DLG
+#define HIDC_E_AXIS_Z_X                 0x80de049f    // IDD_DRAWING_VECTOR_DLG
+#define HIDC_E_AXIS_Z_Y                 0x80de04a0    // IDD_DRAWING_VECTOR_DLG
+#define HIDC_E_AXIS_Z_Z                 0x80de04a1    // IDD_DRAWING_VECTOR_DLG
+#define HIDC_E_ORIGIN_POS_X             0x80ff04ab    // IDD_DRAW_UCS_DLG
+#define HIDC_E_ORIGIN_POS_Y             0x80ff04ac    // IDD_DRAW_UCS_DLG
+#define HIDC_E_ORIGIN_POS_Z             0x80ff04ad    // IDD_DRAW_UCS_DLG
+#define HIDOK                           0x80ba0001    // IDD_INPUT_AN_INTEGER_VAL_DLG

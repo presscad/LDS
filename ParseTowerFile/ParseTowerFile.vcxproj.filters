@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Log">
+      <UniqueIdentifier>{a362a5a3-5c14-4f76-93ef-bbdabb45c795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="TowerCad">
+      <UniqueIdentifier>{e4922b9e-e93d-4bac-8c6e-9d802e285326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BOM">
+      <UniqueIdentifier>{37a6008b-9be7-49b6-b6f7-1d84f375a64b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ToolCode">
+      <UniqueIdentifier>{3fc7aaaf-768a-44e2-ab96-482908c75d5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LDS">
+      <UniqueIdentifier>{6c548f24-c080-4396-94a7-e96982cfb35c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LDS\LdsModel">
+      <UniqueIdentifier>{9b2176bb-2f75-4e71-a705-9cdcca2bcf01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ParseTowerFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\Console.cpp">
+      <Filter>LDS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\TowerType.cpp">
+      <Filter>LDS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\GlobalFunc.cpp">
+      <Filter>LDS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LibraryQuery.cpp">
+      <Filter>LDS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\CryptBuffer.cpp">
+      <Filter>LDS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\JointTubePartGroup.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\ArcPart.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\AssembleCS.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\AttachWindLoad.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\Block.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\Bolt.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\CirBufferStack.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\CommonJg.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\ConeTube.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\ConeTubeParts.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\ConnectPointInfo.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\DefinedView.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\DesignLjPartPara.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\Expression.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\HashObjIdList.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\SpherePartGroup.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\lds_co_part.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\lds_list.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\lds_part.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\LdsModel.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\LineSlot.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\LineTube.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\lslist.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\MutiThreadTask.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\Node.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\ParamPlate.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\PartGroup.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\Plate.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\RetrieveConnectDesignInfo.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\SlotArm.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\WireLoadModelBuffer.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\StdPartModel.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\Tower.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\LdsModel\WindLoad.cpp">
+      <Filter>LDS\LdsModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LDS\BOM\BOM.cpp">
+      <Filter>Source Files\BOM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ToolCode\Buffer.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ToolCode\XhCharString.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ToolCode\BufferStack.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ToolCode\ComplexId.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ToolCode\CreateFace.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ToolCode\HoleMaker.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ToolCode\LogFile.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ToolCode\SolidBody.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ToolCode\SolidBodyBuffer.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ToolCode\SortFunc.cpp">
+      <Filter>ToolCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TowerCad\CopyPasteOper.cpp">
+      <Filter>TowerCad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TowerCad\ParseAdaptNo.cpp">
+      <Filter>TowerCad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TowerCad\SegI.cpp">
+      <Filter>TowerCad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TowerCad\ComparePartNoString.cpp">
+      <Filter>TowerCad</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ParseTowerFile.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="res\ParseTowerFile.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ParseTowerFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Log\LogVersionMsgDef.h">
+      <Filter>Header Files\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Log\XhLog.h">
+      <Filter>Header Files\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\Console.h">
+      <Filter>LDS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\TowerType.h">
+      <Filter>LDS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\GlobalFunc.h">
+      <Filter>LDS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LibraryQuery.h">
+      <Filter>LDS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\CryptBuffer.h">
+      <Filter>LDS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\BOM\BOM.h">
+      <Filter>Source Files\BOM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\WireLoadModelBuffer.h">
+      <Filter>LDS\LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\ArrayPtrList.h">
+      <Filter>LDS\LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\Block.h">
+      <Filter>LDS\LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\CirBufferStack.h">
+      <Filter>LDS\LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\ConeTubeParts.h">
+      <Filter>LDS\LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\DefinedView.h">
+      <Filter>LDS\LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\Expression.h">
+      <Filter>LDS\LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\HashObjIdList.h">
+      <Filter>LDS\LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\IModel.h">
+      <Filter>LDS\LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\lds_co_part.h">
+      <Filter>LDS\LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\lds_list.h">
+      <Filter>LDS\LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\lds_part.h">
+      <Filter>LDS\LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\LdsModel.h">
+      <Filter>LDS\LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\ldsptr_list.h">
+      <Filter>LDS\LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\lslist.h">
+      <Filter>LDS\LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\macro.h">
+      <Filter>LDS\LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\MutiThreadTask.h">
+      <Filter>LDS\LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\SlotArm.h">
+      <Filter>LDS\LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\SmartPtr.h">
+      <Filter>LDS\LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\SpherePartGroup.h">
+      <Filter>LDS\LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\Tower.h">
+      <Filter>LDS\LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LDS\LdsModel\WindLoad.h">
+      <Filter>LDS\LdsModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ToolCode\Buffer.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ToolCode\XhCharString.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ToolCode\ArrayList.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ToolCode\ArrayPtrList.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ToolCode\BufferStack.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ToolCode\ComplexId.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ToolCode\CreateFace.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ToolCode\HashSetBuffer.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ToolCode\HashTable.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ToolCode\HoleMaker.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ToolCode\LogFile.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ToolCode\MemberProperty.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ToolCode\objptr_list.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ToolCode\SolidBody.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ToolCode\SolidBodyBuffer.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ToolCode\SortFunc.h">
+      <Filter>ToolCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TowerCad\CopyPasteOper.h">
+      <Filter>TowerCad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TowerCad\ParseAdaptNo.h">
+      <Filter>TowerCad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TowerCad\SegI.h">
+      <Filter>TowerCad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TowerCad\ComparePartNoString.h">
+      <Filter>TowerCad</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ParseTowerFile.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
