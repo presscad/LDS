@@ -14,6 +14,10 @@
 #include "DesWireNodeDlg.h"
 #include "IModel.h"
 #include "LifeObj.h"
+#include "LdsDoc.h"
+#include "PreProcessor.h"
+#include "TtaDataFile.h"
+#include "MainFrm.h"
 
 #ifdef _DEBUG
 #undef THIS_FILE
@@ -22,10 +26,6 @@ static char THIS_FILE[]=__FILE__;
 #endif
 
 #if defined(__LDS_)||defined(__TSA_)
-#include "LdsDoc.h"
-#include "PreProcessor.h"
-#include "TtaDataFile.h"
-#include "MainFrm.h"
 
 int SafeIsDigit(char ch){return ch<0?0:isdigit(ch);}
 TTA_BODYLEG::TTA_BODYLEG()
@@ -9170,5 +9170,9 @@ void CLDSView::OnAddGtmBraceElemPanels()
 {
 	CLogErrorLife life(&logerr);
 	AddGtmBraceElemPanels();
+}
+#else
+void CLDSView::OnAddGtmBraceElemPanels()
+{
 }
 #endif

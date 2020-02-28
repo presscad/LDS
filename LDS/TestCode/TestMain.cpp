@@ -1885,7 +1885,7 @@ void TestMultiLegConnPoint()
 #endif
 int CLDSView::Test()
 {
-	TestDesignGSP90();
+	//TestDesignGSP90();
 	//TestDesignGJ90();
 	//TestDesignSGDJ90();
 	return 0;

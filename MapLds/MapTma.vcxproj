@@ -44,7 +44,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E15E5E75-4D21-4083-AF91-E9DA07F356A2}</ProjectGuid>
-    <SccProjectName>"$/", AAAAAAAA</SccProjectName>
+    <SccProjectName>"$/LDS", BAAAAAAA</SccProjectName>
     <SccAuxPath />
     <SccLocalPath>..\..</SccLocalPath>
     <SccProvider>MSSCCI:Microsoft Visual SourceSafe</SccProvider>

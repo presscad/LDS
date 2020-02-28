@@ -29,8 +29,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6E1BCAB7-E6BD-4678-A70B-E37F00B68CCC}.ArxLMADebug07|x86.ActiveCfg = LMADebug|Win32
 		{6E1BCAB7-E6BD-4678-A70B-E37F00B68CCC}.ArxLMADebug07|x86.Build.0 = LMADebug|Win32
-		{6E1BCAB7-E6BD-4678-A70B-E37F00B68CCC}.Debug|x86.ActiveCfg = LDSDebug|Win32
-		{6E1BCAB7-E6BD-4678-A70B-E37F00B68CCC}.Debug|x86.Build.0 = LDSDebug|Win32
+		{6E1BCAB7-E6BD-4678-A70B-E37F00B68CCC}.Debug|x86.ActiveCfg = LMADebug|Win32
+		{6E1BCAB7-E6BD-4678-A70B-E37F00B68CCC}.Debug|x86.Build.0 = LMADebug|Win32
 		{6E1BCAB7-E6BD-4678-A70B-E37F00B68CCC}.LDSDebug|x86.ActiveCfg = LDSDebug|Win32
 		{6E1BCAB7-E6BD-4678-A70B-E37F00B68CCC}.LDSDebug|x86.Build.0 = LDSDebug|Win32
 		{6E1BCAB7-E6BD-4678-A70B-E37F00B68CCC}.LDSDebugV9|x86.ActiveCfg = LDSDebug|Win32
@@ -117,5 +117,18 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7B0CF946-FD4A-4B8C-AB45-E61420279CC7}
+	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectUniqueName0 = LDS\\LDS.vcxproj
+		SccProjectName0 = \u0022$/LDS\u0022,\u0020BAAAAAAA
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		SccProjectFilePathRelativizedFromConnection0 = LDS\\LDS\\
+		SccProjectUniqueName1 = MapLds\\MapTma.vcxproj
+		SccProjectName1 = \u0022$/LDS\u0022,\u0020BAAAAAAA
+		SccLocalPath1 = ..
+		SccProvider1 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		SccProjectFilePathRelativizedFromConnection1 = LDS\\MapLds\\
 	EndGlobalSection
 EndGlobal

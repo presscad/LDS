@@ -36,9 +36,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{6E1BCAB7-E6BD-4678-A70B-E37F00B68CCC}</ProjectGuid>
-    <SccProjectName>"$/", AAAAAAAA</SccProjectName>
+    <SccProjectName>"$/LDS", BAAAAAAA</SccProjectName>
     <SccAuxPath />
-    <SccLocalPath>..</SccLocalPath>
+    <SccLocalPath>..\..</SccLocalPath>
     <SccProvider>MSSCCI:Microsoft Visual SourceSafe</SccProvider>
     <Keyword>MFCProj</Keyword>
   </PropertyGroup>
@@ -182,8 +182,8 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='LMADebug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>.\;..\lds\LdsModel;..\lds\zlib;..\lds\ImageFile;..\Graphics;..\GridCtrl;..\DockPage;..\LMADLG;..\PartLib;..\DrawSolid;..\ToolCode;..\XeroCad;..\TowerCad;..\XhLdsLm;..\XhLicAgent;..\VersionServ;..\LDS\TAPServer;..\lds\BomExport;..\lds\TestCode;..\lds\StdComTempl;..\Draw3d;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>_DEBUG;WIN32;_WINDOWS;__LMA_;_RELATIVE_DLG;__INTERNAL_VERSION;__ENABLE_XHSTRING_LENGTH_PROPERTY_;_NET_DOG;__PROPERTYLIST_UI_;__ALFA_TEST_VERSION_;__CONNECT_REMOTE_SERVER_WXPAY_;WITH_NONAMESPACES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\..\XhCore\Graphics;..\..\XhCore\GridCtrl;..\..\XhCore\AlgFun;..\..\XhCore\Ent;..\..\XhCore\EntList;..\..\XhCore\Draw3d;..\..\XhCore\DrawSolid;..\..\XhCore\XeroCad;..\..\XhCore\PartLib;..\..\XhCore\LMADLG;..\..\XhLmd\XhLdsLm;..\..\XhLmd\XhLicAgent;..\..\ToolKits\ToolCode;..\..\ToolKits\TowerCad;..\..\ToolKits\VersionServ;.\LdsModel;.\StdComTempl;.\StdPartSolid;..\zlib;..\ImageFile;..\BomExport;..\MapLds;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;WIN32;_WINDOWS;__LMA_;_RELATIVE_DLG;__INTERNAL_VERSION;__ENABLE_XHSTRING_LENGTH_PROPERTY_;_NET_DOG;__PROPERTYLIST_UI_;__ALFA_TEST_VERSION_;__CONNECT_REMOTE_SERVER_WXPAY_;WITH_NONAMESPACES;_XERORPTTBL_EMBEDDED_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
@@ -204,10 +204,10 @@
     </ClCompile>
     <Link>
       <AdditionalOptions>/FORCE:MULTIPLE %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>glu32.lib;opengl32.lib;imm32.lib;Version.lib;f_ent.lib;f_ent_list.lib;f_alg_fun.lib;png.lib;zlib.lib;Jpeg.lib;LmaDlg10.lib;PartLib.lib;DrawSolid.lib;XeroCad.lib;XhLdsLm2.lib;XhLicAgent2.lib;hasp_windows_106281.lib;Draw3d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>glu32.lib;opengl32.lib;imm32.lib;Version.lib;f_ent.lib;f_ent_list.lib;f_alg_fun.lib;png.lib;zlib.lib;Jpeg.lib;LmaDlg10.lib;PartLib.lib;DrawSolid.lib;XeroCad.lib;XhLdsLm2.lib;XhLicAgent2.lib;hasp_windows_106281.lib;Draw3d.lib;QRCode.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)LMA.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>.\;..\Graphics;..\LMADLG\Debug;..\PartLib\Debug;..\DrawSolid\Release;..\XeroCad\Release;..\XhLdsLm\Release;..\XhLicAgent\Release;..\lds\BomExport\Debug;..\Draw3d\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\XhCore\AlgFun\Release;..\..\XhCore\Ent\Release;..\..\XhCore\EntList\Release;..\..\XhCore\Draw3d\Release;..\..\XhCore\DrawSolid\Release;..\..\XhCore\XeroCad\Release;..\..\XhCore\LmaDlg\Debug;..\..\XhCore\PartLib\Debug;..\..\XhLmd\XhLdsLm\Release2;..\..\XhLmd\XhLicAgent\Release2;..\..\ToolKits\QRcode\Debug;..\BomExport\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(TargetDir)$(TargetName).pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
@@ -377,8 +377,8 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='TMADebug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>.\;..\lds\LdsModel;..\lds\zlib;..\lds\ImageFile;..\Graphics;..\GridCtrl;..\DockPage;..\LMADLG;..\PartLib;..\DrawSolid;..\ToolCode;..\XeroCad;..\TowerCad;..\XhLdsLm;..\XhLicAgent;..\VersionServ;..\LDS\BomExport;..\LDS\TestCode;..\Draw3d;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>_DEBUG;WIN32;_WINDOWS;_RELATIVE_DLG;__TMA_;_NET_DOG;__COMMON_PART_INC_;__ENABLE_XHSTRING_LENGTH_PROPERTY_;__ALFA_TEST_VERSION_;__CONNECT_REMOTE_SERVER_WXPAY_;WITH_NONAMESPACES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\;..\..\XhCore\Graphics;..\..\XhCore\GridCtrl;..\..\XhCore\AlgFun;..\..\XhCore\Ent;..\..\XhCore\EntList;..\..\XhCore\Draw3d;..\..\XhCore\DrawSolid;..\..\XhCore\XeroCad;..\..\XhCore\LMADLG;..\..\XhCore\PartLib;..\..\XhLmd\XhLdsLm;..\..\XhLmd\XhLicAgent;..\..\ToolKits\ToolCode;..\..\ToolKits\TowerCad;..\..\ToolKits\VersionServ;..\ImageFile;..\zlib;..\BomExport;.\LdsModel;.\StdPartSolid;..\MapLds;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;WIN32;_WINDOWS;_RELATIVE_DLG;__TMA_;_NET_DOG;__COMMON_PART_INC_;__ENABLE_XHSTRING_LENGTH_PROPERTY_;__ALFA_TEST_VERSION_;__CONNECT_REMOTE_SERVER_WXPAY_;WITH_NONAMESPACES;_XERORPTTBL_EMBEDDED_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
@@ -398,10 +398,10 @@
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>glu32.lib;opengl32.lib;imm32.lib;Version.lib;f_ent.lib;f_ent_list.lib;f_alg_fun.lib;png.lib;zlib.lib;Jpeg.lib;LmaDlg10.lib;PartLib.lib;DrawSolid.lib;XeroCad.lib;XhLdsLm2.lib;XhLicAgent2.lib;hasp_windows_106281.lib;BomExport.lib;Draw3d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>glu32.lib;opengl32.lib;imm32.lib;Version.lib;f_ent.lib;f_ent_list.lib;f_alg_fun.lib;png.lib;zlib.lib;Jpeg.lib;LmaDlg10.lib;PartLib.lib;DrawSolid.lib;XeroCad.lib;XhLdsLm2.lib;XhLicAgent2.lib;hasp_windows_106281.lib;BomExport.lib;Draw3d.lib;QRCode.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)TMA.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>.\;..\Graphics;..\LMADLG\Debug;..\PartLib\Debug;..\DrawSolid\Release;..\XeroCad\Release;..\XhLdsLm\Release;..\XhLicAgent\Release;..\lds\BomExport\Debug;..\Draw3d\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\XhCore\AlgFun\Release;..\..\XhCore\Ent\Release;..\..\XhCore\EntList\Release;..\..\XhCore\Draw3d\Release;..\..\XhCore\DrawSolid\Release;..\..\XhCore\XeroCad\Release;..\..\XhLmd\XhLdsLm\Release2;..\..\XhLmd\XhLicAgent\Release2;..\..\XhCore\LmaDlg\Debug;..\..\XhCore\PartLib\Debug;..\..\ToolKits\QRcode\Debug;..\BomExport\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(IntDir)TMA.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
@@ -498,6 +498,8 @@
     <ClCompile Include="..\..\ToolKits\ToolCode\PropertyList.cpp" />
     <ClCompile Include="..\..\ToolKits\ToolCode\ServerObject.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LDSDebug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='TMADebug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LMADebug|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="..\..\ToolKits\ToolCode\SocketObject.cpp" />
     <ClCompile Include="..\..\ToolKits\ToolCode\SolidBody.cpp" />
@@ -530,18 +532,28 @@
     <ClCompile Include="..\..\ToolKits\TowerCad\WirePlaceCode.cpp" />
     <ClCompile Include="..\..\ToolKits\VersionServ\LicenseManager.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LDSDebug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='TMADebug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LMADebug|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="..\..\ToolKits\VersionServ\soapC.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LDSDebug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='TMADebug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LMADebug|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="..\..\ToolKits\VersionServ\soapVersionServiceSoapProxy.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LDSDebug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='TMADebug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LMADebug|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="..\..\ToolKits\VersionServ\stdsoap2.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LDSDebug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='TMADebug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LMADebug|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="..\..\ToolKits\VersionServ\VER.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LDSDebug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='TMADebug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='LMADebug|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="..\..\ToolKits\XhRptTbl\XhRptTbl.cpp" />
     <ClCompile Include="..\..\XhCore\GridCtrl\GRIDCTRL.CPP" />

@@ -752,7 +752,7 @@ CTowerBOM* CDataCmpModel::ImportExcelBomFileCore(CVariant2dArray &sheetContentMa
 		}
 		//µ¥»ùÊý
 		int nNumPerTower=0;
-		if((pColIndex=hashColIndexByColTitle.GetValue(CBomTblTitleCfg::T_NUM))!=NULL)
+		if((pColIndex=hashColIndexByColTitle.GetValue(CBomTblTitleCfg::T_SING_NUM))!=NULL)
 		{
 			sheetContentMap.GetValueAt(i,*pColIndex,value);
 			nNumPerTower=atoi(VariantToString(value));
@@ -896,8 +896,8 @@ CTowerBOM* CDataCmpModel::AppendDrawingDataFromExce(const char* sFileName)
 				hashColIndexByColTitle.SetValue(CBomTblTitleCfg::T_LEN,i);
 			else if(CBomTblTitleCfg::IsMatchTitle(CBomTblTitleCfg::INDEX_SPEC,itemstr)) 
 				hashColIndexByColTitle.SetValue(CBomTblTitleCfg::T_SPEC,i);
-			else if(CBomTblTitleCfg::IsMatchTitle(CBomTblTitleCfg::INDEX_NUM,itemstr)) 
-				hashColIndexByColTitle.SetValue(CBomTblTitleCfg::T_NUM,i);
+			else if(CBomTblTitleCfg::IsMatchTitle(CBomTblTitleCfg::INDEX_SING_NUM,itemstr))
+				hashColIndexByColTitle.SetValue(CBomTblTitleCfg::T_SING_NUM,i);
 			else if(CBomTblTitleCfg::IsMatchTitle(CBomTblTitleCfg::INDEX_SING_WEIGHT,itemstr)) 
 				hashColIndexByColTitle.SetValue(CBomTblTitleCfg::T_SING_WEIGHT,i);
 		}
